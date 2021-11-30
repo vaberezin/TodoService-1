@@ -1,0 +1,23 @@
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Centerprise\TodoService
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Centerprise\TodoService
+Returned null array or Items on path /api/todoitems/
+Returned null array or Items on path /api/todoitems/
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Centerprise\TodoService
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Centerprise\TodoService
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Centerprise\TodoService
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Centerprise\TodoService
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\todo\TodoService-1
