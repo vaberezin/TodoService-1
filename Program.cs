@@ -21,6 +21,8 @@ namespace TodoApi
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
+                })
+                .ConfigureLogging(options => 
+                                    options.ClearProviders());
     }
 }
