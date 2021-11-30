@@ -5,6 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="TodoApiDTO.Core\**" />
+    <Compile Remove="TodoApiDTO.Infrastructure\**" />
+    <Content Remove="TodoApiDTO.Core\**" />
+    <Content Remove="TodoApiDTO.Infrastructure\**" />
+    <EmbeddedResource Remove="TodoApiDTO.Core\**" />
+    <EmbeddedResource Remove="TodoApiDTO.Infrastructure\**" />
+    <None Remove="TodoApiDTO.Core\**" />
+    <None Remove="TodoApiDTO.Infrastructure\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
@@ -12,6 +23,14 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="TodoApiDTO.Core\TodoApiDTO.Core.csproj" />
+    <ProjectReference Include="TodoApiDTO.Infrastructure\TodoApiDTO.Infrastructure.csproj" />
   </ItemGroup>
 
 
